@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  min-width: 320px;
+}
+
+.bg-orange{
+  background-color:#FF914D;
+}.bg-blue{
+  background-color:#1D3D59
+}
+
+.btn-orange{
+  color: #fff;
+  border-color: #FF914D;
+  background-color: #FF914D;
+}.btn-blue{
+  color: #fff;
+  border-color: #1D3D59;
+  background-color: #1D3D59;
+}.btn-orange:hover{
+  opacity: 0.8;
+  color: #fff;
+}
+
+.fill-orange svg{ 
+  fill:#FF914D;
+}.fill-blue svg{ 
+  fill:#1D3D59;
+}
+
+.no-glow a, .no-glow button{                                                                     /*overrides bootstrap default behavior of addition a border on nav-links classes*/
+  box-shadow:none !important; 
+  outline:​0px !important; 
+}
+
+.fs-10{
+  font-size: 10px
+}.fs-14{
+  font-size: 14px;
+}
+
+.h-70 {
+  height: 70%!important;
+}.h-20 {
+  height: 20%!important;
+}.h-10{
+  height: 10%!important;
+}
+
+
+
+.card-height{
+  width: 180px;
+  height: 150px;
+}
